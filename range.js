@@ -11,7 +11,6 @@ function range (start, end, step) {
     //console.log(array);
     return array;
   }
-  
 }
 
 console.log(range(0, 10, 2));

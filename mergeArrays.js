@@ -5,8 +5,6 @@ function concat (array1, array2) {
   return array1;
 }
 
-//function swap(x,y) {}
-
 function merge (array1, array2) {
   concat(array1,array2);
   for (let i = 0; i < array1.length; i++) {
@@ -20,6 +18,8 @@ function merge (array1, array2) {
   }
   return array1;
 }
+
+//can also separate these into sort and swap functions
 
 console.log(merge([ 4, 5, 6 ], [ 1, 2, 3, 4 ]), "=?", [ 1, 2, 3, 4, 4, 5, 6 ]);
 console.log(merge([ 4 ], [ 2, 5, 8 ]), "=?", [ 2, 4, 5, 8 ]);
