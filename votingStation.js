@@ -13,8 +13,8 @@ function chooseStations (stations) {
     //  console.log(cap);
       const type = station[2];
       if (type === 'school' || type === 'community centre') {
-      //console.log(station[0]);
-      chosenStations.push(station[0]);  //how can I push the capacity and type to the new array as well?
+        //console.log(station[0]);
+        chosenStations.push(station[0]);  //how can I push the capacity and type to the new array as well?
       }
     }
   }
